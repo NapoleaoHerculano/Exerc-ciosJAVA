@@ -1,20 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package uri1048;
 import java.util.Scanner;
 
-/**
- *
- * @author Francivaldo Napoleão
- */
 public class Uri1048 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         double salarios[][] = {{0,400,0.15},{400.01,800,0.12},{800.01,1200,0.10},{1200.01,2000,0.07}};
@@ -32,9 +20,6 @@ public class Uri1048 {
                 percentual = 0.04 * 100;
             }
         }
-        System.out.printf("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: %.0f %s\n", novoS,reaj,percentual,"%");
-        
+        System.out.printf("Novo salario: %.2f\nReajuste ganho: %.2f\nEm percentual: %.0f %s\n", novoS,reaj,percentual,"%");   
     }
-    
-    
 }
